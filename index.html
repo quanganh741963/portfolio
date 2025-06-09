@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trần Quang Anh - Mobile Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* General Styles */
+      body {
+        font-family: "Roboto", sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f7f6;
+        color: #333;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #2c3e50;
+        margin-bottom: 15px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        text-align: center;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        font-size: 1.8em;
+        color: #3498db;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 8px;
+        margin-top: 30px;
+      }
+
+      h3 {
+        font-size: 1.3em;
+        color: #555;
+        margin-top: 20px;
+      }
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      ul li {
+        margin-bottom: 8px;
+        padding-left: 20px;
+        position: relative;
+      }
+
+      ul li::before {
+        content: "•";
+        color: #3498db;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        position: absolute;
+        left: 0;
+      }
+
+      a {
+        color: #3498db;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Header Section */
+      .header-info {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .header-info p {
+        margin: 5px 0;
+        font-size: 1.1em;
+        color: #555;
+      }
+
+      /* Career Objective */
+      .objective-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .objective-list li {
+        margin-bottom: 15px;
+        padding-left: 25px;
+        position: relative;
+        font-size: 1.05em;
+      }
+
+      .objective-list li::before {
+        content: "🎯";
+        /* Objective icon */
+        position: absolute;
+        left: 0;
+        font-size: 1.2em;
+        line-height: 1;
+      }
+
+      /* Education Section */
+      .education-item,
+      .experience-item {
+        margin-bottom: 25px;
+        padding: 15px;
+        border: 1px solid #eee;
+        border-left: 4px solid #3498db;
+        border-radius: 5px;
+      }
+
+      .education-item p,
+      .experience-item p {
+        margin: 5px 0;
+      }
+
+      .education-item ul,
+      .experience-item ul {
+        margin-top: 10px;
+      }
+
+      /* Work Experience */
+      .project-meta {
+        font-size: 0.9em;
+        color: #777;
+        margin-top: 5px;
+      }
+
+      .key-achievements li::before {
+        content: "✓";
+        /* Checkmark for achievements */
+        color: #28a745;
+      }
+
+      .technologies-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+      }
+
+      .tech-tag {
+        background-color: #e0f2f7;
+        color: #2c3e50;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.85em;
+        white-space: nowrap;
+      }
+
+      /* Skills Section */
+      .skills-category {
+        margin-bottom: 20px;
+      }
+
+      .skills-category ul li::before {
+        content: "⭐";
+        /* Star for skills */
+        color: #f39c12;
+      }
+
+      /* References Section */
+      .references-item {
+        margin-bottom: 15px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+      }
+
+      .references-item p {
+        margin: 5px 0;
+      }
+
+      .references-item p strong {
+        color: #2c3e50;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header-info">
+        <h1>Trần Quang Anh</h1>
+        <p><strong>Mobile Developer</strong></p>
+        <p>
+          19/01/2002 | 0355 642 544 |
+          <a href="mailto:quanganh741963@gmail.com">quanganh741963@gmail.com</a>
+          | Hà Nội
+        </p>
+      </div>
+
+      <hr />
+
+      <h2>CAREER OBJECTIVE</h2>
+      <ul class="objective-list">
+        <li>
+          Always take the initiative to learn new technologies in software
+          development, with a strong focus on React Native and mobile platforms
+          to improve professional skills. At the same time, develop
+          problem-solving thinking and teamwork skills through real-world
+          projects.
+        </li>
+        <li>
+          Apply accumulated knowledge and experience effectively to build
+          practical, high-value products that contribute to the overall success
+          of the project. Aim to achieve an income that truly reflects my
+          abilities and contributions, while building a long-term career.
+        </li>
+      </ul>
+
+      <hr />
+
+      <h2>EDUCATION</h2>
+      <div class="education-item">
+        <h3>HANOI UNIVERSITY OF SCIENCE AND TECHNOLOGY</h3>
+        <p>SCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY</p>
+        <ul>
+          <li>Bachelor’s Degree in Computer Science - Grade: Very Good</li>
+          <li>GPA: 3.31 / 4.00</li>
+          <li>English Proficiency Certification - TOEIC: 565</li>
+        </ul>
+      </div>
+
+      <hr />
+
+      <h2>WORK EXPERIENCE</h2>
+
+      <div class="experience-item">
+        <h3>PulseWallet Project</h3>
+        <p><strong>Position:</strong> Developer</p>
+        <p>
+          <strong>Description:</strong> A project for developing the PulseWallet
+          app, a cryptocurrency wallet that securely stores information,
+          supports transactions, and facilitates buying and selling
+          cryptocurrencies.
+        </p>
+        <p class="project-meta">
+          <strong>Duration:</strong> From 11/2024 - present
+        </p>
+        <h4>Key Achievements:</h4>
+        <ul class="key-achievements">
+          <li>
+            Managed a list of wallets with two main types: MPC wallet (social
+            account) and import wallet (mnemonic, private key)
+          </li>
+          <li>
+            Fetched token list and balance by blockchain and wallet address
+            using RPC connection
+          </li>
+          <li>
+            Supported users to send token and bridge token (cross-chain
+            transfer) for both wallet types, available to customize gas fee
+          </li>
+          <li>
+            Handled pending transactions from tx-pool based on nonce order to
+            prevent stuck transactions
+          </li>
+          <li>
+            Built and tested the app on Google Play Console for Android and
+            TestFlight for iOS
+          </li>
+        </ul>
+        <h4>Technologies:</h4>
+        <div class="technologies-list">
+          <span class="tech-tag">React Native</span>
+          <span class="tech-tag">MobX-State-Tree</span>
+          <span class="tech-tag">Firebase</span>
+          <span class="tech-tag">Google Sign-In</span>
+          <span class="tech-tag">Ethers.js (Ethereum)</span>
+          <span class="tech-tag">Solana Web3.js</span>
+          <span class="tech-tag">Sui SDK (Sui Blockchain)</span>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <h3>MoneyLover Project</h3>
+        <p><strong>Position:</strong> Developer</p>
+        <p>
+          <strong>Description:</strong> A project for developing an app that
+          helps manage group expenses, stores transaction history, manages
+          invoices, organizes user groups, and supports real-time user
+          interactions
+        </p>
+        <p class="project-meta"><strong>Duration:</strong> 10/2024 - 01/2025</p>
+        <p class="project-meta">
+          <strong>Repo:</strong>
+          <a href="https://github.com/QuangAnh741963/MoneyLover" target="_blank"
+            >MoneyLover GitHub</a
+          >
+        </p>
+        <h4>Key Achievements:</h4>
+        <ul class="key-achievements">
+          <li>
+            Built a greedy algorithm to calculate user balances and payments
+            within a group
+          </li>
+          <li>
+            Configured the app to connect with Supabase services such as
+            Postgres database, storage, auth, edge function, webhook, and
+            notification
+          </li>
+          <li>Developed the user interface</li>
+        </ul>
+        <h4>Technologies:</h4>
+        <div class="technologies-list">
+          <span class="tech-tag">React Native</span>
+          <span class="tech-tag">Mobx-State-Tree</span>
+          <span class="tech-tag">Supabase</span>
+          <span class="tech-tag">Firebase</span>
+          <span class="tech-tag">Google Sign-In</span>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <h3>DeliEn Project</h3>
+        <p><strong>Position:</strong> Developer</p>
+        <p>
+          <strong>Description:</strong> A project for developing an application
+          that supports learning English through interactive games
+        </p>
+        <p class="project-meta"><strong>Duration:</strong> 3/2024 - 6/2024</p>
+        <p class="project-meta">
+          <strong>Repo:</strong>
+          <a href="https://github.com/QuangAnh741963/DeliEn" target="_blank"
+            >DeliEn GitHub</a
+          >
+        </p>
+        <h4>Key Achievements:</h4>
+        <ul class="key-achievements">
+          <li>Designed UI and implemented game logic</li>
+          <li>
+            Used Reanimated for animations, and integrated Gesture Handler for
+            user interaction
+          </li>
+        </ul>
+        <h4>Technologies:</h4>
+        <div class="technologies-list">
+          <span class="tech-tag">React Native</span>
+          <span class="tech-tag">Mobx-State-Tree</span>
+          <span class="tech-tag">Reanimated</span>
+          <span class="tech-tag">React Native Gesture Handle</span>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <h3>Fir-IPTV Project</h3>
+        <p><strong>Position:</strong> Developer</p>
+        <p>
+          <strong>Description:</strong> The project builds an IPTV application
+          that allows users to easily watch TV channels and entertainment
+          content
+        </p>
+        <p class="project-meta"><strong>Duration:</strong> 3/2025 - present</p>
+        <h4>Key Achievements:</h4>
+        <ul class="key-achievements">
+          <li>Built the user interface</li>
+          <li>Created a layout that supports user interaction with video</li>
+        </ul>
+        <h4>Technologies:</h4>
+        <div class="technologies-list">
+          <span class="tech-tag">React Native</span>
+          <span class="tech-tag">Redux</span>
+          <span class="tech-tag">React Native Video</span>
+          <span class="tech-tag">VLC Media Player</span>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2>SKILLS</h2>
+      <div class="skills-category">
+        <h3>Professional Skills</h3>
+        <ul>
+          <li>
+            Experience working with
+            <strong>React Native, JavaScript, and TypeScript</strong> in
+            cross-platform application development
+          </li>
+          <li>
+            Basic knowledge of
+            <strong>Native programming on Android and iOS</strong>
+          </li>
+          <li>
+            State management using
+            <strong>MobX-State-Tree, Redux, Redux Toolkit</strong>, and handling
+            asynchronous operations with Redux Saga and Thunk
+          </li>
+          <li>
+            Working with <strong>RESTful APIs</strong>, experienced in using
+            basic <strong>NestJS</strong> to build APIs,
+            <strong>Firebase, Supabase, and Socket</strong>, with experience
+            handling tasks such as Camera integration and Notification
+            management
+          </li>
+          <li>
+            Experience in app performance optimization, adhering to
+            <strong>SOLID principles</strong>, writing clean, maintainable, and
+            reusable code, and integrating third-party libraries for performance
+            enhancement
+          </li>
+          <li>
+            Handling animations with <strong>Reanimated</strong> and optimizing
+            user experience using <strong>Gesture Handler</strong>
+          </li>
+          <li>
+            Building UI with libraries like
+            <strong>react-native-ui-lib</strong>, understanding responsive
+            design, and applying UI optimization techniques
+          </li>
+          <li>
+            Experience with <strong>source control tools like Git</strong> and
+            platforms such as GitLab and GitHub
+          </li>
+          <li>
+            Ability to test, build, and debug apps for release on Google Play
+            Store or Apple App Store
+          </li>
+          <li>
+            Experience working and managing projects using the
+            <strong>Agile Scrum model</strong>, utilizing task management tools
+            like <strong>Trello and Jira</strong>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skills-category">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>
+            High sense of responsibility, proactive in learning and exploring
+            new technologies
+          </li>
+          <li>Strong communication skills and effective teamwork</li>
+          <li>Basic English proficiency</li>
+        </ul>
+      </div>
+
+      <hr />
+
+      <h2>REFERENCES</h2>
+      <div class="references-item">
+        <p><strong>Name:</strong> An Bình</p>
+        <p>
+          <strong>Title/Experience:</strong> Over 10 years of experience in
+          React Native development and native iOS programming
+        </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:starfall.9000.21@gmail.com"
+            >starfall.9000.21@gmail.com</a
+          >
+        </p>
+      </div>
+      <div class="references-item">
+        <p><strong>Name:</strong> Nguyễn Việt Tùng</p>
+        <p>
+          <strong>Title/Experience:</strong> Over 10 years of experience in
+          React Native development
+        </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:tung.nv.work@gmail.com">tung.nv.work@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
